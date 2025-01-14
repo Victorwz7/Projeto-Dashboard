@@ -1,7 +1,7 @@
 import {Sheet, SheetTrigger, SheetContent} from '@/components/ui/sheet'
 import { Button } from '../ui/button'
 import Link from 'next/link'
-import { Home, HomeIcon, LogOut, Package, PanelBottom, Settings, ShoppingBag, User, Users } from 'lucide-react'
+import { Home, LogOut, Package, PanelBottom, Settings, ShoppingBag, User, Users } from 'lucide-react'
 import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from '../ui/tooltip'
 export default function Sidebar () {
     return(
